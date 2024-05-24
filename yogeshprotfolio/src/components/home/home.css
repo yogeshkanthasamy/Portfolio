@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    border: none;
+    top: 0;
+}
+/* lighttheme */
+
+.intro_container{
+    padding-top: 10%;
+    margin-bottom: 15%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    width: 100%;
+}
+
+.home_container_light{
+    padding: 2% 2%;
+    margin-top: 0;
+    color: black;
+     /* margin: 0%; */
+    
+background-color:rgba(223, 205, 205, 0.5);
+}
+
+
+
+
+ .summary_text{
+    margin: 10px 10px;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-weight: 700;
+    position:relative;
+    width: 70%;
+    top:10%;
+    left: 12%;
+    font-family: monospace;
+    background-color: rgba(231, 76, 60 ,0.5);
+    border: none;
+    border-radius: 10px;
+ }
+
+
+
+
+/* darktheme */
+
+.home_container_dark{
+    color: white;
+    
+    background-color:rgba(0, 0, 0, 0.951);
+}
+
+ 
+
+ /* .profileimg_container{
+   
+ } */
+
+.profile_img{
+    position: relative;
+    top:8%;
+    /* border: 5px  rgb(255, 106, 0.5); */
+    border-left:4px solid rgb(255, 106, 0.5);
+    border-bottom:5px solid rgb(255, 106, 0.5);
+    border-top: 3px solid rgb(255, 106, 0.5);
+    border-right: 3px solid rgb(255, 106, 0.5);
+    height: 350px;  
+    width: 350px;
+    object-fit: cover;
+    opacity: 10;
+}
+
+.aboutme_skills{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
